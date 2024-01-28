@@ -2,7 +2,9 @@
 #define TEXT_TEILER_HPP
 #include <iostream>
 
-std::string datenNamen (int platzVonList);
+void datenNamen ();
+void dateiÖffner (int jahrB, std::string fileName);
+void zeilenTeiler(int jahrC);
 
 
 

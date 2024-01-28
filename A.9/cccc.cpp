@@ -25,8 +25,6 @@ for(int i=1880; i<2023; i++) {
 
 
     std::ifstream file(dateiName);
-
-
     if (!file.is_open()) {
         std::cerr << "Konnte die Datei nicht öffnen: " << dateiName << std::endl;
         return 1;
